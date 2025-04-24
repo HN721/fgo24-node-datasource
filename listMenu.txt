@@ -1,15 +1,31 @@
 {
-  { nama: "Nasi Goreng", harga: 20000 },
-  { nama: "Bakso", harga: 12000 },
-  { nama: "Mie Goreng", harga: 5000 },
-  { nama: "Nasi Uduk", harga: 10000 },
-  { nama: "Es Teler", harga: 20000 },
-  { nama: "Coffe", harga: 12000 },
-  { nama: "Estea", harga: 5000 },
-  { nama: "GreenTea", harga: 10000 },
-
-  { nama: "Nugget", harga: 20000 },
-  { nama: "Gorengan", harga: 12000 },
-  { nama: "Ciki", harga: 5000 },
-  { nama: "Burger", harga: 10000 },
+  "menu": [
+    {
+      "category": "Makanan",
+      "item": [
+        { "nama": "Nasi Goreng", "harga": 20000 },
+        { "nama": "Bakso", "harga": 12000 },
+        { "nama": "Mie Goreng", "harga": 5000 },
+        { "nama": "Nasi Uduk", "harga": 10000 }
+      ]
+    },
+    {
+      "category": "Minuman",
+      "item": [
+        { "nama": "Es Teler", "harga": 20000 },
+        { "nama": "Coffe", "harga": 12000 },
+        { "nama": "Estea", "harga": 5000 },
+        { "nama": "GreenTea", "harga": 10000 }
+      ]
+    },
+    {
+      "category": "Snack",
+      "item": [
+        { "nama": "Nugget", "harga": 20000 },
+        { "nama": "Gorengan", "harga": 12000 },
+        { "nama": "Ciki", "harga": 5000 },
+        { "nama": "Burger", "harga": 10000 }
+      ]
+    }
+  ]
 }
